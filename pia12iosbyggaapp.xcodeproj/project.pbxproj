@@ -11,6 +11,14 @@
 		E8FD0CD42B4BF5F900CAEA3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CD32B4BF5F900CAEA3D /* ContentView.swift */; };
 		E8FD0CD62B4BF5FB00CAEA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FD0CD52B4BF5FB00CAEA3D /* Assets.xcassets */; };
 		E8FD0CD92B4BF5FB00CAEA3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FD0CD82B4BF5FB00CAEA3D /* Preview Assets.xcassets */; };
+		E8FD0CE02B4BF66A00CAEA3D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CDF2B4BF66A00CAEA3D /* LoginView.swift */; };
+		E8FD0CE22B4BF6A300CAEA3D /* ChildrenlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CE12B4BF6A300CAEA3D /* ChildrenlistView.swift */; };
+		E8FD0CE42B4BF74B00CAEA3D /* ViewchildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CE32B4BF74A00CAEA3D /* ViewchildView.swift */; };
+		E8FD0CE62B4BF75900CAEA3D /* AddChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CE52B4BF75900CAEA3D /* AddChildView.swift */; };
+		E8FD0CE82B4BF76600CAEA3D /* AddParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CE72B4BF76600CAEA3D /* AddParentView.swift */; };
+		E8FD0CEA2B4BF7BB00CAEA3D /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CE92B4BF7BB00CAEA3D /* ChildView.swift */; };
+		E8FD0CEF2B4BF9BF00CAEA3D /* Apihelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CEE2B4BF9BF00CAEA3D /* Apihelper.swift */; };
+		E8FD0CF12B4BFBE000CAEA3D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CF02B4BFBE000CAEA3D /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		E8FD0CD32B4BF5F900CAEA3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8FD0CD52B4BF5FB00CAEA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FD0CD82B4BF5FB00CAEA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8FD0CDF2B4BF66A00CAEA3D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E8FD0CE12B4BF6A300CAEA3D /* ChildrenlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenlistView.swift; sourceTree = "<group>"; };
+		E8FD0CE32B4BF74A00CAEA3D /* ViewchildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewchildView.swift; sourceTree = "<group>"; };
+		E8FD0CE52B4BF75900CAEA3D /* AddChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildView.swift; sourceTree = "<group>"; };
+		E8FD0CE72B4BF76600CAEA3D /* AddParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParentView.swift; sourceTree = "<group>"; };
+		E8FD0CE92B4BF7BB00CAEA3D /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		E8FD0CEE2B4BF9BF00CAEA3D /* Apihelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apihelper.swift; sourceTree = "<group>"; };
+		E8FD0CF02B4BFBE000CAEA3D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,13 @@
 		E8FD0CD02B4BF5F900CAEA3D /* pia12iosbyggaapp */ = {
 			isa = PBXGroup;
 			children = (
-				E8FD0CD12B4BF5F900CAEA3D /* pia12iosbyggaappApp.swift */,
 				E8FD0CD32B4BF5F900CAEA3D /* ContentView.swift */,
+				E8FD0CED2B4BF81C00CAEA3D /* Login */,
+				E8FD0CEC2B4BF7E100CAEA3D /* Parent */,
+				E8FD0CEB2B4BF7D300CAEA3D /* Child */,
+				E8FD0CD12B4BF5F900CAEA3D /* pia12iosbyggaappApp.swift */,
+				E8FD0CEE2B4BF9BF00CAEA3D /* Apihelper.swift */,
+				E8FD0CF02B4BFBE000CAEA3D /* Models.swift */,
 				E8FD0CD52B4BF5FB00CAEA3D /* Assets.xcassets */,
 				E8FD0CD72B4BF5FB00CAEA3D /* Preview Content */,
 			);
@@ -65,6 +86,33 @@
 				E8FD0CD82B4BF5FB00CAEA3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8FD0CEB2B4BF7D300CAEA3D /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				E8FD0CE92B4BF7BB00CAEA3D /* ChildView.swift */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
+		E8FD0CEC2B4BF7E100CAEA3D /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				E8FD0CE12B4BF6A300CAEA3D /* ChildrenlistView.swift */,
+				E8FD0CE52B4BF75900CAEA3D /* AddChildView.swift */,
+				E8FD0CE72B4BF76600CAEA3D /* AddParentView.swift */,
+				E8FD0CE32B4BF74A00CAEA3D /* ViewchildView.swift */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		E8FD0CED2B4BF81C00CAEA3D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E8FD0CDF2B4BF66A00CAEA3D /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FD0CE02B4BF66A00CAEA3D /* LoginView.swift in Sources */,
+				E8FD0CEF2B4BF9BF00CAEA3D /* Apihelper.swift in Sources */,
+				E8FD0CEA2B4BF7BB00CAEA3D /* ChildView.swift in Sources */,
+				E8FD0CE62B4BF75900CAEA3D /* AddChildView.swift in Sources */,
+				E8FD0CE22B4BF6A300CAEA3D /* ChildrenlistView.swift in Sources */,
+				E8FD0CE42B4BF74B00CAEA3D /* ViewchildView.swift in Sources */,
+				E8FD0CE82B4BF76600CAEA3D /* AddParentView.swift in Sources */,
 				E8FD0CD42B4BF5F900CAEA3D /* ContentView.swift in Sources */,
 				E8FD0CD22B4BF5F900CAEA3D /* pia12iosbyggaappApp.swift in Sources */,
+				E8FD0CF12B4BFBE000CAEA3D /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

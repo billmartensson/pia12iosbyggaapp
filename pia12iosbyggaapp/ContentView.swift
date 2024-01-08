@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var apihelp = Apihelper.shared
+    
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if apihelp.loggedinparent == nil {
+                LoginView()
+            } else {
+                ChildrenlistView()
+            }
         }
-        .padding()
+        .onAppear() {
+            apihelp.checklogin()
+        }
+        
     }
 }
 
