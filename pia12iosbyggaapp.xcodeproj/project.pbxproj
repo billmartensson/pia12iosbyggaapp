@@ -19,6 +19,7 @@
 		E8FD0CEA2B4BF7BB00CAEA3D /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CE92B4BF7BB00CAEA3D /* ChildView.swift */; };
 		E8FD0CEF2B4BF9BF00CAEA3D /* Apihelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CEE2B4BF9BF00CAEA3D /* Apihelper.swift */; };
 		E8FD0CF12B4BFBE000CAEA3D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CF02B4BFBE000CAEA3D /* Models.swift */; };
+		E8FD0CF32B4C06B100CAEA3D /* pia12byggaapp.drawio in Resources */ = {isa = PBXBuildFile; fileRef = E8FD0CF22B4C06B100CAEA3D /* pia12byggaapp.drawio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E8FD0CE92B4BF7BB00CAEA3D /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
 		E8FD0CEE2B4BF9BF00CAEA3D /* Apihelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apihelper.swift; sourceTree = "<group>"; };
 		E8FD0CF02B4BFBE000CAEA3D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E8FD0CF22B4C06B100CAEA3D /* pia12byggaapp.drawio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pia12byggaapp.drawio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E8FD0CC52B4BF5F900CAEA3D = {
 			isa = PBXGroup;
 			children = (
+				E8FD0CF22B4C06B100CAEA3D /* pia12byggaapp.drawio */,
 				E8FD0CD02B4BF5F900CAEA3D /* pia12iosbyggaapp */,
 				E8FD0CCF2B4BF5F900CAEA3D /* Products */,
 			);
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FD0CD92B4BF5FB00CAEA3D /* Preview Assets.xcassets in Resources */,
+				E8FD0CF32B4C06B100CAEA3D /* pia12byggaapp.drawio in Resources */,
 				E8FD0CD62B4BF5FB00CAEA3D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
