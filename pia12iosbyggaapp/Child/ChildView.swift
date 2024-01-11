@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ChildView: View {
+    
+    @StateObject var apihelp = Apihelper.shared
+    
     var body: some View {
-        Text("CHILD")
+        Text("CHILD OWN VIEW")
+        
+        Button(action: {
+            apihelp.logout()
+        }, label: {
+            Text("Logout")
+        })
     }
 }
 

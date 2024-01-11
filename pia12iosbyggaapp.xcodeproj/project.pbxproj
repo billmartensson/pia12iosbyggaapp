@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8393D5D2B4FE03800DA4269 /* ChildrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8393D5C2B4FE03800DA4269 /* ChildrowView.swift */; };
 		E8FD0CD22B4BF5F900CAEA3D /* pia12iosbyggaappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CD12B4BF5F900CAEA3D /* pia12iosbyggaappApp.swift */; };
 		E8FD0CD42B4BF5F900CAEA3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD0CD32B4BF5F900CAEA3D /* ContentView.swift */; };
 		E8FD0CD62B4BF5FB00CAEA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FD0CD52B4BF5FB00CAEA3D /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8393D5C2B4FE03800DA4269 /* ChildrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrowView.swift; sourceTree = "<group>"; };
 		E8FD0CCE2B4BF5F900CAEA3D /* pia12iosbyggaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia12iosbyggaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FD0CD12B4BF5F900CAEA3D /* pia12iosbyggaappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iosbyggaappApp.swift; sourceTree = "<group>"; };
 		E8FD0CD32B4BF5F900CAEA3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E8FD0CE52B4BF75900CAEA3D /* AddChildView.swift */,
 				E8FD0CE72B4BF76600CAEA3D /* AddParentView.swift */,
 				E8FD0CE32B4BF74A00CAEA3D /* ViewchildView.swift */,
+				E8393D5C2B4FE03800DA4269 /* ChildrowView.swift */,
 			);
 			path = Parent;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FD0CE02B4BF66A00CAEA3D /* LoginView.swift in Sources */,
+				E8393D5D2B4FE03800DA4269 /* ChildrowView.swift in Sources */,
 				E8FD0CEF2B4BF9BF00CAEA3D /* Apihelper.swift in Sources */,
 				E8FD0CEA2B4BF7BB00CAEA3D /* ChildView.swift in Sources */,
 				E8FD0CE62B4BF75900CAEA3D /* AddChildView.swift in Sources */,

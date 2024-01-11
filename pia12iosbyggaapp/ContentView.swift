@@ -14,11 +14,18 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            if apihelp.loggedinparent == nil {
-                LoginView()
-            } else {
+            if apihelp.loggedinparent != nil {
                 ChildrenlistView()
             }
+            if apihelp.loggedinchild != nil {
+                ChildView()
+            }
+
+            if apihelp.loggedinparent == nil && apihelp.loggedinchild == nil {
+                
+                LoginView()
+            }
+            
         }
         .onAppear() {
             apihelp.checklogin()

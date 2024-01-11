@@ -14,26 +14,41 @@ struct ChildrenlistView: View {
     var body: some View {
         
         NavigationStack {
-            Text("CHILDREN")
+            VStack {
+                Text("CHILDREN")
 
-            NavigationLink(destination: ViewchildView()) {
-                Text("VIEW CHILD")
-            }
+                
 
-            NavigationLink(destination: AddChildView()) {
-                Text("ADD CHILD")
-            }
+                NavigationLink(destination: AddChildView()) {
+                    Text("ADD CHILD")
+                }
 
-            NavigationLink(destination: AddParentView()) {
-                Text("ADD PARENT")
+                NavigationLink(destination: AddParentView()) {
+                    Text("ADD PARENT")
+                }
+                
+                if apihelp.children == nil {
+                    Spacer()
+                    Text("Loading...")
+                    Spacer()
+                } else {
+                    List {
+                        ForEach(apihelp.children!, id: \.childid) { child in
+                            NavigationLink(destination: ViewchildView(currentchild: child)) {
+                                ChildrowView(rowchild: child)
+                            }
+                        }
+                    }
+                }
+                
+                Button(action: {
+                    apihelp.logout()
+                }) {
+                    Text("Logout")
+                }
             }
-            
-            Spacer()
-            
-            Button(action: {
-                apihelp.logout()
-            }) {
-                Text("Logout")
+            .onAppear() {
+                apihelp.loadchildren()
             }
             
         }
